@@ -1,7 +1,7 @@
 key_t=100;%number of different keys that might attacker consider
 sample_t=500;%number of random plaintext 
 fb=2;%number of random bit-faults
-missrate=20;% percent of missrate
+missrate=0.2;% percent of missrate
 
 %%%%%%%%%%%%%%%following function returns faulty and non faulty ciphertext
 %%%%%%%%%%%%%%%by considereing missrate which can be specify by missrate
